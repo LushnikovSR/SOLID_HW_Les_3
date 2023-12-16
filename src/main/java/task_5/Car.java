@@ -1,7 +1,7 @@
 package task_5;
 
 
-public class Car {
+public class Car implements Engine{
     private Engine engine;
     public Car(Engine engine) {
         this.engine = engine;
